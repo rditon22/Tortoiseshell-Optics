@@ -57,3 +57,15 @@ nav ul {
 ul li {
   padding: 1rem 2rem 1rem 0;
 }
+
+.title {
+  display: inline-flex;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  position: relative;
+  top: 10rem;
+  left: 21.4rem;
+}
