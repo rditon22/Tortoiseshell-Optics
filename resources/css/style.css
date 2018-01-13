@@ -13,10 +13,6 @@ body {
   margin: 0 auto;
 }
 
-div {
-  /* border: 1px solid black; */
-}
-
 /* Header */
 
 header {
@@ -31,7 +27,6 @@ header {
   display: flex;
   align-items: center;
   background-color: cadetblue;
-  /* margin-top: 1rem; */
   color: white;
   font-size: 1rem;
   position: relative;
@@ -137,4 +132,24 @@ footer {
 footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
+}
+
+/* Media Queries max-width: 1024px */
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    height: 22rem;
+  }
+  .top-banner {
+    top: 0;
+  }
+  .title {
+    font-size: 1.33rem;
+    top: 5rem;
+    left: 17.4rem;
+    padding: 0.75rem 4rem;
+  }
 }
